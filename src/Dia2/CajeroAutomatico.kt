@@ -1,8 +1,8 @@
 package Dia2
 
-import java.security.Principal
 
 fun main() {
+
     var topeDeDinero : Int = 1000
 
     println("""
@@ -14,7 +14,7 @@ fun main() {
 
     while (topeDeDinero != 0) {
 
-        var dineroRetirado = readln().toIntOrNull()
+        val dineroRetirado = readln().toIntOrNull()
 
         if (dineroRetirado == null || dineroRetirado <= 0) {
             println("por favor ingrese un numero valido")
